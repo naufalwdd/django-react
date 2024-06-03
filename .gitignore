@@ -1,0 +1,28 @@
+# CLIENT SIDE
+client_side/node_modules/
+client_side/build
+client_side/coverage
+client_side/.DS_Store
+client_side/.env
+client_side/.env.local
+client_side/.env.development.local
+client_side/.env.test.local
+client_side/.env.production.local
+client_side/.pnp
+client_side/.pnp.js
+client_side/npm-debug.log*
+client_side/yarn-debug.log*
+client_side/yarn-error.log*
+
+# SERVER SIDE
+server_side/venv/
+server_side/db.sqlite3
+server_side/*.sqlite3
+server_side/*.pyc
+server_side/.vscode/
+server_side/.coverage
+server_side/.env
+server_side/__pycache__/
+server_side/**/__pycache__/
+server_side/*/migrations/*.py
+server_side/*/migrations/*.pyc
